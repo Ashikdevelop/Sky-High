@@ -1,0 +1,57 @@
+.destination{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 32%;
+    
+}
+.heading2{
+
+    font-family: 'Playfair Display SC', serif;
+    position: absolute;
+    top: -2%;
+    left: 7%;
+    text-decoration: underline;
+    color:#241E09;
+}
+
+.des-card{
+    background-color: gold;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 25px;
+
+}
+
+.descard-img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    transition: .5s ease;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.descard-img:hover{
+    transform: scale(1.1);
+}
+
+
+.des-text{
+    font-family: 'Playfair Display SC', serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color:#241E09;
+}
+
+.footer2{
+    width: 100%;
+    height: 30px;
+    background-color: gold;
+    position: absolute;
+    top: 100%;
+    border-radius: 15px;
+}

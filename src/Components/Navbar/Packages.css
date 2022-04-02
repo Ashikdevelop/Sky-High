@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 11%;
+    right: 11%;
+    flex-wrap: wrap;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.container .head{
+    position: absolute;
+    top: -8%;
+    left: 1%;
+    text-decoration: underline;
+    color:#241E09;
+}
+
+.card{
+    background-color: #D0B22C;
+    width: 270px;
+    height: 320px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.card h3{
+    padding: 10px;
+    font-family: 'Baskervville', serif;
+    color: #241E09;
+    margin-left: 12%;
+    
+}
+
+.card p{
+   color: #241E09;
+   margin-left: 12%; 
+}
+
+.card-img{
+    background-color: gold;
+    height: 190px;
+    width: 100%;
+  background-size: cover;
+    margin-bottom: 15px;
+}
+
+
+ .card a{
+    color: #241E09;
+    display: block;
+    background-color: #CC8400;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 25px;
+    transition: .5s ease-in;
+    cursor: pointer;
+
+}
+
+.card a:hover{
+transform: scale(1.2);
+}
+
+.footer1{
+    width: 128%;
+    height: 30px;
+    background-color: gold;
+    position: absolute;
+    top: 100%;
+    border-radius: 15px;
+}
